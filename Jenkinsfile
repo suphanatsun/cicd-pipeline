@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Intial') {
       steps {
-      echo 'Intial..'
+       sh 'node -v'
       }
     } 
   }
